@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ダンプカー問題ビジュアライザー改２</title>
+    <title>ダンプカー問題ビジュアライザー</title>
     <style>
         #board {
             display: grid;
@@ -23,14 +23,14 @@
     </style>
 </head>
 <body>
-    <h1>ダンプカー問題ビジュアライザー改</h1>
+    <h1>ダンプカー問題ビジュアライザー</h1>
     <div>
         <label for="input">入力:</label><br>
-        <textarea id="input" rows="10" cols="40"></textarea>
+        <textarea id="input" rows="22" cols="40"></textarea>
     </div>
     <div>
         <label for="output">出力:</label><br>
-        <textarea id="output" rows="10" cols="40"></textarea>
+        <textarea id="output" rows="100" cols="40"></textarea>
     </div>
     <button onclick="visualize()">可視化</button>
     <div>
@@ -42,7 +42,7 @@
     <div>
         <button onclick="playAnimation()">再生</button>
         <label for="speed">再生速度:</label>
-        <input type="range" id="speed" min="1" max="10" value="5">
+        <input type="range" id="speed" min="1" max="100" value="5">
     </div>
     <div id="board"></div>
 
